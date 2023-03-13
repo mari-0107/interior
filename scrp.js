@@ -188,4 +188,7 @@ portimg.forEach(el => {
     })
  })
  
-
+const contactForm = document.querySelector("#contact-form-block")
+const buttonContact = document.querySelector(".contact").addEventListener('click', function(){
+contactForm.classList.remove(".contact-form-hidden")
+})
